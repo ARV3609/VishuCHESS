@@ -1,0 +1,49 @@
+body{
+    background-color: #c594fd;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+
+}
+.sqareRow{
+    display: flex;
+}
+
+.white {
+    background-color: #faf8ff;
+}
+.black{
+   background-color: #313131;
+}
+
+
+.square {
+    width: 70px;
+    height: 70px;
+}
+
+.piece {
+    width: 100%; 
+    cursor: pointer;
+}
+
+
+.highlight{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color:   rgba(0, 0, 0, 0.170) ;
+    display: block;
+    
+}
+
+.highlightYellow{
+background-color: #f7f769;
+}
